@@ -1,0 +1,19 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.not-found-image {
+  width: 80%;
+}
+.not-found-text {
+  font-size: 20px;
+  color: white;
+}
+.not-found-dec {
+  font-size: 10px;
+  color: white;
+}

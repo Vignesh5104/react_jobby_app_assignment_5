@@ -1,0 +1,28 @@
+.skill-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 120px;
+}
+
+.skill-logo-image {
+  width: 22px;
+}
+
+.skill-name {
+  color: white;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-item {
+    width: 200px;
+  }
+  .skill-logo-image {
+    width: 30px;
+  }
+  .skill-name {
+    font-size: 15px;
+  }
+}
