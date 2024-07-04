@@ -425,6 +425,7 @@ class Jobs extends Component {
                   type="button"
                   className="search-button"
                   onClick={this.onClickSearchIcon}
+                  aria-label="Mute volume"
                 >
                   <BsSearch className="search-icon" />
                 </button>

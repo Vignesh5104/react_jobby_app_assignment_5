@@ -42,6 +42,7 @@ const Header = props => {
                 className="mobile-view-logout-icon-button"
                 type="button"
                 onClick={onClickLogout}
+                aria-label="Mute volume"
               >
                 <AiOutlineLogout size="20" color="white" />
               </button>

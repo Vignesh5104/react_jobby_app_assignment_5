@@ -6,8 +6,8 @@ import './index.css'
 
 class LoginPage extends Component {
   state = {
-    inputUsername: '',
-    inputPassword: '',
+    inputUsername: 'rahul',
+    inputPassword: 'rahul@2021',
     isError: false,
     errorMsg: '',
   }
@@ -69,7 +69,7 @@ class LoginPage extends Component {
             <input
               id="Username"
               type="text"
-              placeholder="Username"
+              placeholder="rahul"
               className="input"
               onChange={this.onChangeUsername}
               value={inputUsername}
@@ -82,7 +82,7 @@ class LoginPage extends Component {
             <input
               id="Password"
               type="password"
-              placeholder="Password"
+              placeholder="rahul@2021"
               className="input"
               onChange={this.onChangePassword}
               value={inputPassword}
